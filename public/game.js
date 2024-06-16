@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const box = document.getElementById('box');
-    box.innerText = 'Hei maailma!';
+    box.innerText = 'Pelataamn';
 });
