@@ -1,0 +1,46 @@
+/* Nollataan selaimen oletustyylit */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px; /* Välitila otsikon ja laatikon väliin */
+    font-size: 2em;      /* Suurempi fonttikoko otsikolle */
+    color: #333;         /* Otsikon väri */
+}
+
+#box {
+    width: 1000px;        /* Päivitetty leveys */
+    height: 500px;       /* Päivitetty korkeus */
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
